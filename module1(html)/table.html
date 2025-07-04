@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        width: 100%;
+        margin-bottom: 100px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid blue;
+        border-collapse: collapse;
+      }
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Today's Topic : Table</h1>
+
+    <table>
+        <colgroup>
+            <col span="1">
+            <col span="3" style="background-color: brown;">
+            
+        </colgroup>
+      <tr>
+        <th>Name</th>
+        <th>City</th>
+        <th>Education</th>
+      </tr>
+      <tr>
+        <td>Prakash</td>
+        <td>Delhi</td>
+        <td>B.tech</td>
+      </tr>
+      <tr>
+        <td>Rahul</td>
+        <td>Hyderabad</td>
+        <td>B.tech</td>
+        <!-- <td> -->
+          <!-- <ul> -->
+            <!-- <li>One</li> -->
+            <!-- <li>two</li> -->
+          <!-- </ul> -->
+        <!-- </td> -->
+      </tr>
+    </table>
+
+
+     <table>
+      <tr>
+        <th colspan="3">Name</th>
+       
+        <th>Education</th>
+      </tr>
+      <tr>
+        <td>Prakash</td>
+        <td>Kumar</td>
+        <td>B.tech</td>
+      </tr>
+      <tr>
+        <td>Rahul</td>
+        <td>Kumar</td>
+        <td>B.tech</td>
+        <!-- <td> -->
+          <!-- <ul> -->
+            <!-- <li>One</li> -->
+            <!-- <li>two</li> -->
+          <!-- </ul> -->
+        <!-- </td> -->
+      </tr>
+    </table>
+    <!-- 1. Table -->
+    <!-- HTML tables allow web developers to arrange -->
+    <!-- data into rows and columns. -->
+
+    <!-- A table in HTML consists of table cells  -->
+    <!-- inside rows and columns. -->
+
+    <!-- 2. Colspan & Rowspan-->
+    <!-- 3. Colgroup -->
+    <!-- 4 . thead, tbody, tfoot -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Saman</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+              <tr>
+                <td>Apple</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>55</td>
+            </tr>
+            
+        </tfoot>
+    </table>
+  </body>
+</html>
