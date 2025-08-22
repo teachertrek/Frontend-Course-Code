@@ -1,0 +1,36 @@
+We Will Discuss All About CSS Text
+
+
+1. Text Alignment - 
+
+text-align -The text-align property specifies how text and inline content is 
+aligned horizontally inside its containing block level element. And we write css in block level element.
+
+
+text-align-last
+vertical-align - The vertical-align property specifies how inline content is 
+aligned vertically . And we write css in content itself that want to align verticle.
+
+2. Text Decorations
+text-decoration 
+text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+text-decoration 
+
+3. Text Transformation
+none 
+capitalize - Transforms the first character of each word to uppercase
+uppercase - Transforms all characters to uppercase
+lowercase - Transforms all characters to lowercase
+  
+4. Text Spacing
+text-indent
+letter-spacing
+line-height
+word-spacing
+white-space
+
+5. Text Shadow
+  
