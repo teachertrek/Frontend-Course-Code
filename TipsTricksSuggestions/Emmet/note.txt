@@ -1,0 +1,18 @@
+Emmet is one of my favorite built-in features
+of VS Code. It is also available as an
+extension in other code editors.
+
+
+Think of Emmet as shorthand. With it,
+you can easily write a lot of code quickly.
+It dramatically speeds up your HTML & CSS
+workflow.
+
+1. Classes .
+2. Id #
+3. Combining 
+4. Content {}
+5. Sibling + And Children >
+6. Grouping ()
+7. Multiplication * $
+ 

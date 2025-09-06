@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator Selector</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+     
+      div > p{
+        background-color: brown;
+        color: wheat;
+      }
+
+      div ~ h3{
+        background-color: purple;
+        color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Combinator Selector</h1>
+    
+    <div>
+        <p>one</p>
+        <p>two</p>
+        <section>
+            <p>three</p>
+            <section><p>Four</p></section>
+        </section>
+    </div>
+    <h3>heading1</h3>
+    <h3>heading2</h3>
+    <section>
+        one
+    </section>
+    <h3>heading three</h3>
+
+  </body>
+</html>
