@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+      a:link {
+        color: green;
+      }
+      a:visited {
+        color: darkmagenta;
+      }
+      a:hover {
+        color: cadetblue;
+      }
+      a:active {
+        color: chartreuse;
+      }
+
+      p:nth-child(even){
+        color: red;
+      }
+      input:focus{
+        color: brown;
+        background-color: black;
+      }
+      h1:hover{
+        background-color: cadetblue;
+      }
+    </style>
+  </head>
+
+  
+  <body>
+    <h1>pseudo-class Selector</h1>
+
+    <a href="http://teachertrek.in" target="_blank"> Teacher Trek</a>
+    <a href="https://www.w3schools.com/css/" target="_blank">Google</a>
+    <a href="https://www.youtube.com/">YT</a>
+    <input type="text" placeholder="Enter Name" />
+    <div>
+        <section>one</section>
+      <p>text1</p>
+      <p>text2</p>
+      <p>text3</p>
+      <p>text4</p>
+      <p>text5</p>
+      <!-- <section> -->
+        <!--  -->
+        <!-- <p>option 1</p> -->
+        <!-- <p>option 2</p> -->
+        <!-- <p>option 3</p> -->
+      <!-- </section> -->
+      
+    </div>
+
+
+    <script>
+
+     // function compositions.
+let obj=new Set([1,2,3])[Symbol.iterator]()
+let arr=[1,2,3][Symbol.iterator]()
+let str="1233"[Symbol.iterator]()
+console.log(str)
+console.log(arr)
+
+        
+
+    </script>
+  </body>
+</html>

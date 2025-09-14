@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            background-color: cadetblue;
+            width: 6%;
+            color: wheat;
+            padding: 10px;
+        }
+        section{
+            position: absolute;
+            top: 38px;
+            display: none;
+            background-color: darkmagenta;
+            color: wheat;
+        }
+
+        .container:hover section{
+            display: block;
+            width: 90%;
+        }
+        p{
+            padding: 0 10px;
+        }
+        p:hover{
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      Men
+      <section>
+        <p>Option 1</p>
+        <p>Option 2</p>
+        <p>Option 3</p>
+        <p>Option 4</p>
+        <p>Option 5</p>
+        <p>Option 6</p>
+        <p>Option 7</p>
+      </section>
+    </div>
+  </body>
+</html>

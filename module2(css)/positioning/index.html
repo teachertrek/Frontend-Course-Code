@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+    <style>
+      body{
+        height: 140vh;
+      }
+      .parent {
+        background-color: cadetblue;
+        color: wheat;
+        padding: 10px;
+        /* height: 120vh; */
+        
+      }
+      .child2 {
+        background-color: brown;
+        padding: 5px;
+        /* position: sticky; */
+        top: 5px;
+        
+        
+      }
+      h1{
+        position: sticky;
+        top: 10px;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Header</h1>
+   
+      <div class="parent">
+        <div class="child1">I am Akash</div>
+
+        <div class="child2">I am Aman</div>
+
+        <div class="child3">I am Amit</div>
+      </div>
+    
+  </body>
+</html>
