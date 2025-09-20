@@ -1,8 +1,23 @@
+console.log("genefratyr");
+console.log("hi");
 
- function* generateSequence() {
+function* generateSequence() {
   yield 1;
   yield 2;
   return 3;
 }
-const ab=generateSequence()
-console.log(ab);
+
+console.log("hello");
+
+let res=generateSequence()
+console.log(res);
+
+console.log(res.next());
+console.log(res.next());
+console.log(res.next());
+console.log(res.next());
+console.log("bye");
+
+
+
+
