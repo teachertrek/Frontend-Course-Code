@@ -1,0 +1,30 @@
+
+ .container{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+    
+    
+ }
+ .item{
+    background-color: cadetblue;
+    color: wheat;
+    padding: 10px;
+    margin: 10px;
+ }
+ .items8{
+    flex: 1;
+ }
+
+
+
+
+
