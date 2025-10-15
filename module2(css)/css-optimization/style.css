@@ -1,0 +1,23 @@
+
+/* *{
+    font-size: 50px;
+} */
+.container{
+    color: black;
+    font-size: 30px;
+    text-shadow: 4px 4px 10px black;
+    /* margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-top: 40px; */
+    margin: 40px;
+}
+/* .second>section>p{
+    background-color: red;
+    color: wheat;
+} */
+
+/* .second_child{
+    background-color: brown;
+    color: wheat;
+} */
